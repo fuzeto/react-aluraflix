@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
     const initialValues = {
@@ -10,31 +11,23 @@ function CadastroCategoria() {
         color: '',
     }
 
+    const { handleChange, values, clearForm } = useForm(initialValues);
+
     const [categories, setCategories] = useState([]);
-    const [values, setValues] = useState(initialValues);
-
-    function setValue(key, value) {
-        setValues({
-            ...values,
-            [key]: value,
-        });
-    }
-
-    function handleChange(event) {
-        setValue(
-            event.target.getAttribute('name'),
-            event.target.value,
-        );
-    }
 
     useEffect(() => {
         if (window.location.href.includes('localhost')) {
-            const URL = 'http://localhost:8080/categorias';
+            const URL = window.location.hostname.includes('localhost')
+                ? 'http://localhost:8080/categorias'
+                : 'https://gardenflix.herokuapp.com/categorias';
+
             fetch(URL)
                 .then(async (respostaDoServer) => {
                     if (respostaDoServer.ok) {
                         const resposta = await respostaDoServer.json();
-                        setCategories(resposta);
+                        setCategories([
+                            ...resposta
+                        ]);
                         return;
                     }
                     throw new Error('Não foi possível pegar os dados');
@@ -52,7 +45,7 @@ function CadastroCategoria() {
                     ...categories,
                     values
                 ]);
-                setValues(initialValues);
+                clearForm();
             }}>
 
                 <FormField
