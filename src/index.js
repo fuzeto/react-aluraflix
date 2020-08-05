@@ -7,10 +7,10 @@ import {
   Route
 } from 'react-router-dom';
 import Home from './pages/Home';
-import CadastroVideo from './pages/Cadastro/Video';
-import CadastroCategoria from './pages/Cadastro/Categoria';
+import VideoForm from './pages/Form/Video';
+import CategoryForm from './pages/Form/Categoria';
 
-function _404() {
+function Page404() {
   return (
     <div>
       <h1>404 error page</h1>
@@ -22,9 +22,9 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />
-      <Route path="/cadastro/category" component={CadastroCategoria} />
-      <Route path="/cadastro/video" component={CadastroVideo} />
-      <Route component={_404} />
+      <Route path="/cadastro/category" component={CategoryForm} />
+      <Route path="/cadastro/video" component={VideoForm} />
+      <Route component={Page404} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

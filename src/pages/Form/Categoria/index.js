@@ -4,8 +4,10 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import useForm from '../../../hooks/useForm';
 import Button from '../../../components/Button';
+import categoriesRepository from '../../../repositories/categories';
+import '../../../index.css'
 
-function CadastroCategoria() {
+function CategoryForm() {
   const initialValues = {
     title: '',
     description: '',
@@ -18,21 +20,12 @@ function CadastroCategoria() {
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
-      const URL = window.location.hostname.includes('localhost')
-        ? 'http://localhost:8080/categories'
-        : 'https://gardenflix.herokuapp.com/categories';
-
-      fetch(URL)
-        .then(async (respostaDoServer) => {
-          if (respostaDoServer.ok) {
-            const resposta = await respostaDoServer.json();
-            setCategories([
-              ...resposta
-            ]);
-            return;
-          }
-          throw new Error('Não foi possível pegar os dados');
-        })
+      categoriesRepository.getAll()
+        .then((categories) => {
+          setCategories([
+            ...categories
+          ]);
+        });
     }
   }, []);
 
@@ -92,11 +85,15 @@ function CadastroCategoria() {
         })}
       </ul>
 
-      <Link to="/">
+      <Link to="/cadastro/video" className="ButtonLink">
+        Cadastro de Video
+      </Link>
+
+      <Link to="/" className="ButtonLink">
         Ir para Home
       </Link>
     </PageDefault>
   );
 }
 
-export default CadastroCategoria;
+export default CategoryForm;

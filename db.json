@@ -2,208 +2,174 @@
   "categories": [
     {
       "id": 1,
-      "title": "Front End",
-      "color": "#6BD1FF",
-      "extra_link": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "title": "Canal Cultivando",
+      "color": "#6BD1FF"
     },
     {
       "id": 2,
-      "title": "Back End",
-      "color": "#00C86F",
-      "extra_link": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      }
+      "title": "Horta para Iniciantes",
+      "color": "#00C86F"
     },
     {
       "id": 3,
-      "title": "Data Science e Inteligência Artificial",
-      "color": "#9cd33b",
-      "extra_link": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
-      }
+      "title": "Horta Vertical",
+      "color": "red"
     },
     {
       "id": 4,
-      "title": "Filmes",
+      "title": "Dicas para plantar em sementeiras",
       "color": "orange"
     },
     {
       "id": 5,
-      "title": "Games",
-      "color": "red",
-      "extra_link": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "title": "Suculentas",
+      "color": "#9cd33b"
     }
   ],
   "videos": [
     {
       "id": 1,
       "categoryId": 1,
-      "title": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "title": "Aprenda a cuidar de ervas em vasos",
+      "url": "https://www.youtube.com/watch?v=Krz-GscB-7M"
     },
     {
       "id": 2,
       "categoryId": 1,
-      "title": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "title": "BORRA DE CAFÉ como ADUBO - É bom ou é cilada?",
+      "url": "https://www.youtube.com/watch?v=muK_4Ht3YVs"
     },
     {
       "id": 3,
       "categoryId": 1,
-      "title": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "title": "O que a CASCA DE OVO faz nas suas plantas?",
+      "url": "https://www.youtube.com/watch?v=YUic9_DOxWw"
     },
     {
       "id": 4,
       "categoryId": 1,
-      "title": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "title": "Como as cinzas podem ajudar as suas plantas?",
+      "url": "https://www.youtube.com/watch?v=oUFhzgWKNLc"
     },
     {
       "id": 5,
-      "categoryId": 1,
-      "title": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "categoryId": 2,
+      "title": "Como começar uma hora do ZERO",
+      "url": "https://www.youtube.com/watch?v=ql3bHMl22C4"
     },
     {
       "id": 6,
-      "categoryId": 1,
-      "title": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "categoryId": 2,
+      "title": "Dicas para montar uma mini horta em casa",
+      "url": "https://www.youtube.com/watch?v=hevTtqIFVC4"
     },
     {
       "id": 7,
-      "categoryId": 1,
-      "title": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "categoryId": 2,
+      "title": "Como fazer uma horta em casa (passo a passo)",
+      "url": "https://www.youtube.com/watch?v=GUppN-HvaBk"
     },
     {
       "id": 8,
       "categoryId": 2,
-      "title": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "title": "6 dicas essenciais para o sucesso na horta em vasos",
+      "url": "https://www.youtube.com/watch?v=LAJFyDi2ODU"
     },
     {
       "id": 9,
       "categoryId": 2,
-      "title": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "title": "Como fazer uma mini horta em apartamento ou casa",
+      "url": "https://www.youtube.com/watch?v=XNkEqO5s6Ec"
     },
     {
       "id": 10,
-      "categoryId": 2,
-      "title": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "categoryId": 3,
+      "title": "DIY Horta Vertical ( Pallet ) , transformando cantinho da casa !",
+      "url": "https://www.youtube.com/watch?v=4gWocS4oQrk"
     },
     {
       "id": 11,
-      "categoryId": 2,
-      "title": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "categoryId": 3,
+      "title": "Como fazer jardim vertical cano pvc",
+      "url": "https://www.youtube.com/watch?v=ZsI0FZUwr4s"
     },
     {
       "id": 12,
-      "categoryId": 2,
-      "title": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "categoryId": 3,
+      "title": "Como fazer horta vertical em casa",
+      "url": "https://www.youtube.com/watch?v=HggwmsMpaec"
     },
     {
       "id": 13,
       "categoryId": 3,
-      "title": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "title": "Horta vertical em tubos de pvc",
+      "url": "https://www.youtube.com/watch?v=5RPadA5Pm7s"
     },
     {
       "id": 14,
       "categoryId": 3,
-      "title": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "title": "Top 100 ideias de horta vertical",
+      "url": "https://www.youtube.com/watch?v=ODIlGy02vbQ"
     },
     {
       "id": 15,
-      "categoryId": 3,
-      "title": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "categoryId": 4,
+      "title": "Como plantar em sementeiras",
+      "url": "https://www.youtube.com/watch?v=k6okr5hj5Z0"
     },
     {
       "id": 16,
-      "categoryId": 3,
-      "title": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "categoryId": 4,
+      "title": "Dicas de como germinar as sementes na sementeira",
+      "url": "https://www.youtube.com/watch?v=CFKdGJADR5Y"
     },
     {
       "id": 17,
       "categoryId": 4,
-      "title": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "title": "Como Preparar a terra para germinar sementes",
+      "url": "https://www.youtube.com/watch?v=AbyoiONRHR0"
     },
     {
       "id": 18,
       "categoryId": 4,
-      "title": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "title": "Sementeira: com Caixa de Ovos, veja passo a passo",
+      "url": "https://www.youtube.com/watch?v=z38rQjfHoqA"
     },
     {
       "id": 19,
       "categoryId": 4,
-      "title": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "title": "https://www.youtube.com/watch?v=lwaIujuqQBs",
+      "url": "https://www.youtube.com/watch?v=lwaIujuqQBs"
     },
     {
       "id": 20,
-      "categoryId": 4,
-      "title": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "categoryId": 5,
+      "title": "Top 10 SUCULENTAS de fácil cultivo",
+      "url": "https://www.youtube.com/watch?v=NmmLui2mDGs"
     },
     {
       "id": 21,
       "categoryId": 5,
-      "title": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "title": "3 Regras de Ouro para REGAR SUCULENTAS",
+      "url": "https://www.youtube.com/watch?v=l8vIQx8yBhQ"
     },
     {
       "id": 22,
       "categoryId": 5,
-      "title": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "title": "Suculentas: Esqueça tudo que você viu sobre Criar mudas!",
+      "url": "https://www.youtube.com/watch?v=DIpKA3iybsQ"
     },
     {
       "id": 23,
       "categoryId": 5,
-      "title": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "title": "30 Suculentas de sombra com nomes para dentro de casa",
+      "url": "https://www.youtube.com/watch?v=A0MLNldFKTw"
     },
     {
       "id": 24,
       "categoryId": 5,
-      "title": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-    },
-    {
-      "title": "Título do video",
-      "url": "https://www.youtube.com/watch?v=7TJ2WpRHyNg",
-      "categoryId": 1,
-      "id": 25
-    },
-    {
-      "title": "Título do video",
-      "url": "https://www.youtube.com/watch?v=7TJ2WpRHyNg",
-      "categoryId": 1,
-      "id": 26
-    },
-    {
-      "title": "Título do video",
-      "url": "https://www.youtube.com/watch?v=7TJ2WpRHyNg",
-      "categoryId": 3,
-      "id": 27
+      "title": "Como fazer mudas de suculentas com uma só folha?",
+      "url": "https://www.youtube.com/watch?v=56V8LDDZxfs"
     }
   ]
 }

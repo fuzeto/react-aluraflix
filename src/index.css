@@ -4,7 +4,7 @@
 }
 
 :root {
-  --primary: #2A7AE4;
+  --primary: #5CD44A;
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
@@ -28,4 +28,12 @@ a {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
+}
+
+.ButtonLink {
+  background-color: var(--primary);
+  color: var(--white) !important;
+  margin-right: 10px !important;
+  margin-bottom: 20px !important;
+  margin-top: 20px !important;
 }

@@ -7,15 +7,15 @@ import useForm from '../../../hooks/useForm';
 import videosRepository from '../../../repositories/videos';
 import categoriesRepository from '../../../repositories/categories';
 
-function CadastroVideo() {
+function VideoForm() {
   const history = useHistory();
   const [categories, setCategories] = useState([]);
   const categoriesTitle = categories.map(({ title }) => title);
 
   const { handleChange, values, clearForm } = useForm({
-    title: 'Título do video',
-    url: 'https://www.youtube.com/watch?v=7TJ2WpRHyNg',
-    category: 'Front End'
+    title: '',
+    url: '',
+    category: ''
   });
 
   useEffect(() => {
@@ -36,8 +36,6 @@ function CadastroVideo() {
         const selectedCategory = categories.find((category) => {
           return category.title === values.category;
         });
-
-        console.log(selectedCategory)
 
         videosRepository.create({
           title: values.title,
@@ -79,11 +77,15 @@ function CadastroVideo() {
         </Button>
       </form>
 
-      <Link to="/">
+      <Link to="/cadastro/category" className="ButtonLink">
+        Cadastro de Categoria
+      </Link>
+
+      <Link to="/" className="ButtonLink">
         Ir para Home
       </Link>
     </PageDefault >
   );
 }
 
-export default CadastroVideo;
+export default VideoForm;
